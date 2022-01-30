@@ -1,4 +1,5 @@
 import HomeScreen from "./screens/Home";
+import HowToLearnScreen from "./screens/HowToLearn";
 import LabScreen from "./screens/Lab";
 
 
@@ -8,6 +9,11 @@ export default function mainRoutes() {
             Title: 'Archime',
             ScreenName: 'HomeScreen',
             ComponentFunc: HomeScreen
+        },
+        {
+            Title: 'To Learn',
+            ScreenName: 'HowToLearn',
+            ComponentFunc: HowToLearnScreen
         },
         {
             Title: 'My Lab',
